@@ -8,7 +8,7 @@ function showMessage() {
 function postOpportunity() {
     alert("Opportunity Posted Successfully!");
 }
-function apply() {
+function apply() {A
     window.location.href = "volunteer.html"; // redirect to registration page
 }
 
