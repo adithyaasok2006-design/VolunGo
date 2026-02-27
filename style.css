@@ -174,3 +174,142 @@ button:hover {
 .step p {
     color: #555;
 }
+
+h1 {
+    color: #2c3e50;
+}
+
+h2 {
+    color: #34495e;
+}
+
+div {
+    background: white;
+    padding: 15px;
+    margin: 15px auto;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+
+button {
+    background-color: #00796b;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #004d40;
+    transform: scale(1.05);
+}
+
+table {
+    margin: auto;
+    background: white;
+    border-collapse: collapse;
+    width: 60%;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+td, th {
+    padding: 10px;
+}
+form {
+    background: white;
+    padding: 25px;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+label {.header {
+    background: linear-gradient(to right, #00796b, #26a69a);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+    font-weight: bold;
+}
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 60%;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #00796b;
+    color: white;
+    font-size: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #d0f0eb;
+}
+/* ===== Header Styling ===== */
+.header {
+    background: linear-gradient(to right, #b2dfdb, #80cbc4); /* light teal gradient */
+    color: #00796b;       /* dark teal text */
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* Navigation Links Styling */
+.nav a {
+    color: #004d40;           /* dark teal text */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    background-color: #00796b; /* darker teal on hover */
+    color: white;
+    transform: scale(1.05);
+}
+body {
+    background-color: #e0f2f1; /* very light teal */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
