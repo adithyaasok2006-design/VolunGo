@@ -307,9 +307,4 @@ tr:hover {
     color: white;
     transform: scale(1.05);
 }
-body {
-    background-color: #e0f2f1; /* very light teal */
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
+
