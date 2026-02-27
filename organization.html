@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VolunGo - Organization</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+    <h1>VolunGo</h1>
+    <p>Connecting Volunteers & Organizations</p><div class="nav">
+        <a href="index.html">Home</a>
+        <a href="organization.html">Post</a>
+        <a href="leaderboard.html">Leaderboard</a>
+    </div>
+
+
+</div>
+
+<div class="container">
+
+
+<h1>Post an Opportunity</h1>
+
+<form>
+    <label>Organization Name:</label><br>
+    <input type="text" required><br><br>
+
+    <label>Opportunity Title:</label><br>
+    <input type="text" required><br><br>
+
+    <label>Category:</label><br>
+    <select>
+        <option>Social Impact</option>
+        <option>Skill-Based</option>
+        <option>Campus</option>
+    </select><br><br>
+
+    <label>Required Skills:</label><br>
+    <input type="text" placeholder="Communication, Leadership"><br><br>
+
+    <label>Hours Required:</label><br>
+    <input type="number"><br><br>
+
+    <button type="button" onclick="postOpportunity()">Post Opportunity</button>
+</form>
+
+<script src="script.js"></script>
+
+</body>
+</html>
