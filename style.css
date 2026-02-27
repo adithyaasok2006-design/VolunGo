@@ -251,8 +251,16 @@ tr:hover {
     color: #00796b;       /* dark teal text */
     padding: 30px;
     border-radius: 10px;
-    margin-bottom: 20px;
     text-align: center;
+
+    /* NEW STUFF */
+    position: fixed;       /* fixes it at the top */
+    top: 0;                /* stick to top */
+    left: 50%;             /* start at middle of page */
+    transform: translateX(-50%); /* truly center horizontally */
+    width: 80%;            /* adjust width as needed */
+    z-index: 1000;         /* make sure it stays above other content */
+    margin-bottom: 0;      /* remove bottom margin */
 }
 /* Navigation Links Styling */
 .nav a {
